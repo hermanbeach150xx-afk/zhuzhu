@@ -212,18 +212,20 @@
         // ------------- 核心配置 -------------
         const ADMIN_PASSWORD = "yoiyoi"; // yoiyoi
         // 默认内容：直接引用仓库里的音频URL，无需Base64
-        const DEFAULT_DATA = {
-            "sections": [
-                "猪の脏话",
-                
-            ],
-            "buttons": [
-                {
-                   
-                }
-            ]
-        };
-
+       const DEFAULT_DATA = {
+  "sections": [
+    "猪猪语音",
+    "猪の脏话"
+  ],
+  "buttons": [
+    {
+      "id": "1766842199757",
+      "section": "猪猪语音",
+      "text": "滚呐",
+      "audioUrl": "https://raw.githubusercontent.com/hermanbeach150xx-afk/zhuzhu/main/audio/滚呐.wav"
+    }
+  ]
+};
         // ------------- 全局变量 -------------
         let currentAudio = null;
         let isAdmin = false;
@@ -540,3 +542,4 @@
 </body>
 
 </html>
+
